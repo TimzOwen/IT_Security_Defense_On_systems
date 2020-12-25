@@ -113,3 +113,49 @@ Brute-force attack:-->try password combination until it finds the pasword
 Dictionary attack:->try commonly used password like pets and birthdays
 
 password must be atleast 8 characters long
+
+
+### Deceptive attacks
+
+social Engineering:->An attack that relies mostly on human interactions than computers
+
+phishing attack:->sending malicious email to user on one's critical life dependance
+
+Spear phishing:->Targets individual or groups
+
+Spoofing:-> A source masquerading around us something else
+
+Baiting:-> Leaving physical devices like USB and hope someone could plug in
+
+Tailgating:->Gaining access into a restricted area/building by following a real employee in
+
+
+## Cryptography
+
+Hiding messages from potential enemies
+
+Encryption-->Act of taking a message, called a plain text, and applying an operation on it called Cipher
+    so that you receive a garbled,unreadable message as the output, called ciphertext
+
+Decryption-->Reversing encrypted message
+
+cipher:
+
+    Encryption algorithm: -> The underlying Logic of process used to convert the plain text into cipher
+
+    Key:-> used to understand the message
+
+Security through obscurity:
+
+    No one know  the algorithm then we are safe from hackers and attackers
+
+Kerckhoff's principle: states that cryptosytem  or collection of algorithm for key generation and encryption & decryption  should remain secure always whichever of the circumstances as long as key remains secure
+
+cryptanalysis->Searching for ways to decrypt a message
+
+frequency analysis:->The practice of studying the frequency at which letters appear in a ciphertext
+
+steganography:->Hinding info from observers nut not encoding it
+
+
+#### Symmetric cryptography
