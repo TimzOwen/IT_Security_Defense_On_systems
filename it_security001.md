@@ -29,3 +29,50 @@ Hacker-->someone who attempts to break into/exploit a system
         black hackers---Hack to steal/damage
 
 Attack-->actual attempt at causing harm to a system
+
+
+
+#### Malicious software:
+
+Malware:
+
+    Type of malicious s/w that can be used to obtain your sensitive info ,delete/modify files
+
+Viruses:->attaches to a s/w or code
+
+Worms:->spreads over network
+
+Adware:->software that displays advertisement and collects data
+
+Trojan:->malware that disguises itself as one thing but does something else
+
+spyware:-> s/w meant to spy at you
+
+keylogger:->Common type of spyware that is used to record every keystroke you make
+
+Ransome:->A type of attack that holds your data/system hostage until you pay some sort of ransom
+
+Bots:-> Stealing machines/server resources to perform a task
+
+Botnets:->Designed to utilize the power of the internet-connected machines to perform some distributed function
+
+Backdoor:-> a way to get into a system if the other methods aren't allowed
+
+Rootkit:->A collection of s/w or tools that  an Admin would use
+
+Logic bomb:-> a type of malware that is intentionally installed
+
+[More on Malicious software](http://www.independent.co.uk/news/business/news/disgruntled-worker-tried-to-cripple-ubs-in-protest-over-32000-bonus-481515.html)
+
+
+#### Network Attacks
+
+DNS Cache Poisoning attack:--> Giving wrong IP mapping to requests
+
+Man-in-the-middle attack: --> Modify info between two communicating server/clients
+    session hijacking
+    cookie hijacking
+    Rogue AP:-> access point installed in a network  without network Admin's knowledge
+    Evil twin-->connect to two identical network
+
+[More on network attacks and news on Networks attacked](https://threatpost.com/major-dns-cache-poisoning-attack-hits-brazilian-isps-110711/75859/)
