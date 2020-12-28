@@ -107,3 +107,43 @@ Elliptic curve variants:
 
 [Game piracy caused by hackers](https://www.theguardian.com/technology/gamesblog/2011/jan/07/playstation-3-hack-ps3)
 
+
+
+#### Hashing
+
+Function/operations that takes arbitrary data input and maps it to an output of fixed size, called hashing/digest
+
+
+cryptographic hashing id one directional unlike encryption
+
+Hash collisions-->Two different input mapping to the same output
+
+#### Hashing Algorithms
+
+MD5-->operates on 512 blocks bits 128 bit hash digest
+
+SHA1-->designed by NSA
+
+    -->part of secure hash Algorithm suit functions
+
+    used in:
+
+        TLS/SSL
+
+        PGP SSH
+
+        IPsec
+
+MIC--> Message integrity check
+
+    Hash digest of a message at hand ensuring no content are modified
+
+#### supplementary reading
+
+[Theoretical attacks against SHA1](https://eprint.iacr.org/2005/010)
+
+[Formulation of the Attack](https://www.schneier.com/blog/archives/2005/02/sha1_broken.html)
+
+[collisions demonstrated in the aatack](https://eprint.iacr.org/2007/474)
+
+[SHA1 publication collision](https://shattered.io/)
