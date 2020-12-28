@@ -317,3 +317,9 @@ SSL/TLS:
         username password
 
         pre-shared secrets
+
+##### External resources:
+
+[IETF RFC 3193](https://tools.ietf.org/html/rfc3193)
+
+[OpenVPN](https://openvpn.net/index.php/open-source.html)
