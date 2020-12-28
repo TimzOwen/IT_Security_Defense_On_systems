@@ -232,3 +232,29 @@ Web of Trust:
     Individuals instead of CA sign public keys for each other
 
 [X.509 standards](https://www.ietf.org/rfc/rfc5280.txt)
+
+
+
+#### Cryptography in Action
+
+TLS:
+
+    Secure communication
+
+    Authenticate both parities in communication
+
+    The integrity of communication
+
+Session key:
+
+    Shared symmetric encryption key used in TLS session to encrypt key used for sending and receiving data
+
+SSH(Secure shell): A secure network protocol that uses encryption to allow access to a network  service over
+    unsecured networks
+
+PGP(Pretty Good Privacy):
+
+    Encryption application that allows authentication of data,along with privacy from third parties,
+    relying upon asymmetric encryption to achieve this
+
+[PGP Algorithim by Phil](http://www.philzimmermann.com/EN/essays/WhyIWrotePGP.html)
