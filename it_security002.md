@@ -258,3 +258,62 @@ PGP(Pretty Good Privacy):
     relying upon asymmetric encryption to achieve this
 
 [PGP Algorithim by Phil](http://www.philzimmermann.com/EN/essays/WhyIWrotePGP.html)
+
+#### Securing network Traffic
+
+VPN: (Virtual Private Network)
+
+    Mechanism that allows you to remotely connect a host/network  to an internal private network,
+
+    passing the data over a public channel, like internet
+
+#### VPN Approach
+
+IPsec-> Designed in Conjunction with IPv6
+
+    Modes of operation:
+
+        Transport mode->only encrypt payload of IP packet and IP header is untouched
+
+        Tunnel Mode:->Entire IP packet, header,payload and all is encrypted and encapsulated inside new IP packet
+                        with new headers
+
+L2TP/ Layer 2 Tunneling Protocol:
+
+    used to support VPNs
+
+    works in conjuction wit IPsec since L2TP does not provide encryption itself
+
+    used over network that may not support type of data being sent
+
+ISPs - uses L2TP to deliver access to a customer's endpoint
+
+L2TP IPsec->combination of L2TP and IPsec
+
+Encapsulating Security Payload: establishing secure connection in L2TP IPsec
+
+Tunel-provided by L2TP
+
+Secure channel provides by IPsec for:
+
+        confidentiality
+
+        Integrity
+
+        Authentication
+
+SSL/TLS:
+
+    used in some VPN implementation to secure network traffic, as opposed to individual sessions/connection.
+
+    OpenVPNL:->Uses OpenSSL Library to handle key exchange and data encryption
+
+        works on port 1194 on operation with TCP/UDP
+
+    Authentication methods supported:
+
+        Certificate-based authentication
+
+        username password
+
+        pre-shared secrets
