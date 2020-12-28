@@ -147,3 +147,88 @@ MIC--> Message integrity check
 [collisions demonstrated in the aatack](https://eprint.iacr.org/2007/474)
 
 [SHA1 publication collision](https://shattered.io/)
+
+
+
+Bruteforce are difficult to protect from
+
+    needs time
+
+    needs resources
+
+Rainbow table: recovering stolen password hashes tables
+
+password salt
+
+    additional randomized data that's added into the hashing function to generate a hash that's unique to the pswd
+
+    and salt combination
+
+
+#### Cryptography application
+
+public Key Infrastructure:(PKI)
+
+    defines creation,storage and distribution of digital certificate
+
+digital certificate:
+
+    File that proves that an entity owns certain public key
+
+    contains:
+
+        Info on public key
+
+        Registered owner
+
+        Digital signature
+
+CA-Certificate Authority:
+
+    Responsible for storing,issuing and signing certificates
+
+RA-Registration Authority:
+
+    verify signing of certificate
+
+Types of certificate
+
+    SSL/TLS certificate-->for web browsing
+
+    self-signed certificate--> by same org
+
+    SSL/TLS client-->auth client to server
+
+    code signing certificate-->used for signing executable programs
+
+Root CA-->the signing auth
+
+    intermediary/subordinate --<signed to start signing other certificate>
+
+    leaf/end-entity--> a certificate that has no auth as CA
+
+X.509 --> Defines the format of digital certificate
+
+    -Also defines Certificate revocation list (CRL) for distributing no longer valid certs
+
+    - Serial number-> unique identifier for certificate
+
+    - certificate signature Algorithm= indicate what public key algorithm  and  Hashing algorithm is used
+
+    - Issue Name-< Auth that signed the certificate>
+
+    -Validity=Not before and Not after (Dates for the validity of the certificate)
+
+    -Subject=Contain identification info about the entity
+
+    -subject public key info-Def the algorithm of the public key along with public key itself
+
+    -Certificate Signature Algorithm=same as Subject public key info field the two must match
+
+    -certificate signature Value-The digital signature date itself
+
+Web of Trust:
+
+    Individuals instead of CA sign public keys for each other
+
+[X.509 standards](https://www.ietf.org/rfc/rfc5280.txt)
