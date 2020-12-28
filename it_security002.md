@@ -323,3 +323,42 @@ SSL/TLS:
 [IETF RFC 3193](https://tools.ietf.org/html/rfc3193)
 
 [OpenVPN](https://openvpn.net/index.php/open-source.html)
+
+### Cryptographic Hardware:
+
+Trusted Platform Module (TPM):
+
+    Secure generation of keys
+
+    Random number generation
+
+    Remote attestation
+
+    Data binding and sealing
+
+Secure elements:
+
+    for mobile to be secured
+
+    integrated in mobile ot microprocessor
+
+TEE-Trusted Execution environment
+
+    -provides full-blown isolated execution alongside the main OS
+
+FDE-Full Disk Encryption:
+
+    -Encrypting entire drive in the system
+
+Implementation of FDE:
+
+    Commercial Product (PGP) & Bitlocker - Microsoft
+
+    TPMs & FileVault2 - Apple
+
+    dm-crypt-Linux users (Open Source)
+
+pseudo random--> Numbers/ ints not random
+
+[Physical attack on TPM ](https://gcn.com/Articles/2010/02/02/Black-Hat-chip-crack-020210.aspx)
+
