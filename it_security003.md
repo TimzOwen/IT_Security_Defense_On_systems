@@ -60,3 +60,84 @@ Universal Second Factor:
 
 [Creating fake Fingerprint using glue to trick Biometric Systems](http://www.planetbiometrics.com/article-details/i/5774/desc/indian-pupils-cheat-biometric-system-with-glue/)
 
+
+#### Certificate
+
+This are public keys signed by CA-Certificate Authority
+
+Part involves client authenticating the server
+
+Dates:
+
+    Not valid before
+
+    Not valid after
+
+Certificate Revocation List (CRL):
+
+    A singed list published by the CA which defines certificates that have been explicitly revoked
+
+
+#### LDAP
+
+Light Weight Directory Protocol:
+
+    an open industry-standard protocol for accessing and maintaining directory services
+
+Uses Data Information Tree (DIT) to retrieve data
+
+### RADIUS:
+
+Remote Authentication Dial-In User Service:
+
+    A protocol that provides AAA services for users on network
+
+carries std authentication protocol like EAP (Extensible Authentication Protocol)
+
+### Kerberos
+
+A network Authentication protocol that uses "tickets" to allow entities to prove their Identity over potentially insecure channels to provide mutual authentication
+
+also uses symmetric encryption to protect from eves dropping and playback
+
+#### How kerberos operate:
+
+    Enter password and username on your machine
+
+    The password is generated as a symmetric password
+
+    client sends plain text to Kerberos
+
+    checks for account
+
+    TGS-Ticket Granting Services is used to send Message
+
+### TACACS+:
+
+Terminal Access Controller Access-Control System Plus
+
+used for :
+
+    Device administration
+
+    Accounting
+
+    Authorization
+    
+    Authentication
+
+### SSO
+
+#### Single Sing-On
+
+    An authentication concept that allows users to authenticate once and be granted to a lot of services and application
+
+Uses central authentication like LDAP
+
+Example of SSO:
+
+    OpenID->Third party authentication services
+
+    Access site without creating new account
+
+
