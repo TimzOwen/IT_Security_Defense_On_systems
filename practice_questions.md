@@ -73,3 +73,18 @@ What advantages does single sign-on offer
     Reduces time spent authenticating
 
     It reduces total number of credentials
+    
+
+What role does authorization play?
+
+    It determines whether or not an entity has access to a resource
+
+What does OAuth provide
+
+    Access delegation
+
+How is auditing related to accounting
+
+    Accounting is recording access and usage, while auditing is reviewing these records.
+
+
