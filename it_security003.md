@@ -140,4 +140,49 @@ Example of SSO:
 
     Access site without creating new account
 
+### Authorization and Access Control
+
+#### Access Control
+
+OAuth--> One mostly used open standard for authorization
+
+    --> Allows users to access third-party websites and application without sharing user's credentials
+
+OAuth->Authorization system
+
+OpenID->Authentication system
+
+[OAuth based worm attack 2017 ](https://www.theverge.com/2017/5/3/15534768/google-docs-phishing-attack-share-this-document-with-you-spam)
+
+#### Access Control List:
+
+    A way of definfing permission/authorization for objects
+
+#### Accounting
+
+Keeping record of what resources and services your users accessed,or what they did when they were us\ing your system
+
+Auditing->Reviewing Accounting
+
+TACACS+-->Device access AAA system that manages who has access to your network device and what they do on them
+
+RADIUS will track:
+
+    Session duration
+
+    client location
+
+    bandwidth
+
+    other resources used during the session
+
+CISCO AAAs system:
+
+    Command execution
+
+    connection to and from network devices
+
+    system details
+    
+    connections
 
