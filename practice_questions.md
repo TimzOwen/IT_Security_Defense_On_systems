@@ -42,3 +42,34 @@ The practice of hiding messages instead of encoding them is referred to as _____
 
 
 ROT13 and a Caesar cipher are examples of _______
+
+
+How is authentication different from authorization
+
+    Authentication is verifying an identity; authorization is verifying access to a resource
+
+In a multi-factor authentication scheme, a password can be thought of as
+
+    Something you know
+
+What are some drawbacks to using biometrics for authentication? Check all that apply
+
+    There are potential privacy concerns
+
+    Biometric authentication is difficult  or impossible to change if compromised
+
+In what way are U2F tokens more secure than OTP generators
+
+    They're resistant to phishing attacks
+
+What elements of a certificate are inspected when a certificate is verified
+
+    Not valid before
+
+    Not Valid after
+
+What advantages does single sign-on offer
+
+    Reduces time spent authenticating
+
+    It reduces total number of credentials
