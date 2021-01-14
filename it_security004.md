@@ -52,3 +52,65 @@ failed to ban:
 
 #### Network HardwareHardening
 
+#### Network HardwareHardening
+
+DHCP:
+
+    Protocol where devices on a network are assigned critical configuration information for communication over a network
+
+rougue DHCP server attck:
+
+    hackers controling DHCP server for attacks
+
+DHCP snooping:
+
+    Monitor DHCP traffic being sent over a network and track IP assingment and maps them to address being sent over a network
+
+    Can also be used to prevent againest IP Snoofing and ARP attacks
+
+Dynamic ARP inspection
+
+    Allows the nature of the men-in-the-middle attack:
+
+a gratuitous ARP Response:
+
+    answers query that no one made. prevent data manipulation and ip forwading of data
+
+Dynamic ARP inspection(DAI):
+
+    prevent DHCP attacks and DHCP snoofing
+
+    Detects forged ARP and drops them
+
+    precents ARP scanning by having limited set of IP addresses per transfer
+
+IP Source Guard (IPSG)
+    
+    prevents ip spoofing attacks
+
+802.1X
+
+    locking down a network
+
+    IEEE standards for encapsulating EAP - Extensible Authentication Protocol Traffic
+
+    EAP over LAN
+
+Parties involved when Authenticating 802.1X
+
+    Supplicant-->The client device
+
+    Linux wpa_supplicant (client communication which acts as gate keeper)
+
+EAP-TLS
+
+    Authenticaiton type supportted by EAP that uses TLS to authenticate both client and Authentication server
+
+TPMS and FDE
+
+    provide more security to the systwm
+
+#### IEEE 802.1X
+
+[More on IEE 802.X1](https://en.wikipedia.org/wiki/IEEE_802.1X)
+
