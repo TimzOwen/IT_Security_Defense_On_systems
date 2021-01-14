@@ -260,3 +260,61 @@ Raise Computational bars
 Disable WPS and allow only clients to use it and not server/office 
 
 AP manangment console should be upto date
+
+## Network Monitoring
+
+#### Sniffing Network
+
+Packet Sniffing:
+    
+    The process of intercepting network packets in their entirety for analysis
+
+Promiscious Mode:
+
+    Computer networking Operational Mode in which all network data packets can be accessed and viewed by all network adaptors operating in this mode
+
+Make sure to have root access and right previlages to access the packets and traffic you want to capture
+
+port mirroring:
+
+    Allows the switch to take all packets from a specified port, port range / entire VLAN and mirror the 
+    packets to a specific switch port
+
+    you can also use Hub on the traffic you want ot monitor
+
+
+Monitor Mode:
+
+    Allows us to scan across channels to see all wireless traffic being sentby APs and Clients
+
+Capture and Monitoring utilities:
+
+    Aircrack-ng
+    Kismet
+
+
+#### Wireshack and tcpdump
+
+Tcpdump:
+
+    light-weight command-line based utility you can use to capture and analyze packets.
+
+    provide brief packet analysis
+
+    -x flag--> view raw data
+
+wireshark:
+
+    powerful packet anylsis and sniffer
+
+    uses libpcap library 
+
+    has a UI for operation
+
+    if a passphrase os known it can dedcode WPA/WEP
+
+    also checks for bluetooth traffic and USB Traffic
+
+    Can unencrypt voices  VOIP traffic
+
+#### Promiscous Mode:
