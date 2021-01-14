@@ -114,3 +114,45 @@ TPMS and FDE
 
 [More on IEE 802.X1](https://en.wikipedia.org/wiki/IEEE_802.1X)
 
+
+### Network software Hardening:
+
+covers
+
+    Firewalls
+    VPS
+    Proxies
+
+Host-based Firewall:
+
+    Provide security for mobile Devices and other devices from being corrupted over a network
+
+Network-based Firewalls;
+
+    VPNs to provide secure remote access to link to networks seccurely
+
+Procies:
+
+    usesful to protect clients device and their traffic and remote access without using a VPN
+    Can be used to block maliciour content from accessing company's data
+    Reverse proxy allows secure remote Access
+
+Proxy solutions:
+
+    HAProxy
+    Nginix
+    Apache web server
+
+#### Reading on Proxy
+
+[HAProxy Main Documentation](http://www.haproxy.org/#docs)
+
+[HAProxy Reverse documentation](http://cbonte.github.io/haproxy-dconv/1.8/intro.html#3.3.1)
+
+[Nginx documentation](http://nginx.org/en/docs/)
+
+[Nginx Reverse Documentation](http://nginx.org/en/docs/beginners_guide.html#proxy)
+
+[Apache HTTP server main Documentation](http://httpd.apache.org/docs/)
+
+[Apache HTTP reverse proxy documentation](https://httpd.apache.org/docs/2.4/howto/reverse_proxy.html)
