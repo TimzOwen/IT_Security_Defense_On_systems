@@ -156,3 +156,31 @@ Proxy solutions:
 [Apache HTTP server main Documentation](http://httpd.apache.org/docs/)
 
 [Apache HTTP reverse proxy documentation](https://httpd.apache.org/docs/2.4/howto/reverse_proxy.html)
+
+
+## Wireless Security
+
+#### WEP Encryption
+
+#### Wifi Seccurity Network:
+
+WEP(Wired Equivalent Privacy):
+
+    Wireless infomation protection againest evesdropping
+
+    It uses the RC4 symmetric stream cipher for encryption
+
+IV --> generate random data to be used in the systems without repeating same code
+
+Modes for WEP:
+
+    Open System Authentication - No client requirement to encrypt
+
+    Shared Key Authentication - Four stepn challenge to allow encryption
+
+WEP tools cracker Passwords:
+
+    Aircrack
+    AirSnort
+
+[WEP Encryption](https://doi.org/10.1007/3-540-45537-X_1)
