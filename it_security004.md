@@ -184,3 +184,79 @@ WEP tools cracker Passwords:
     AirSnort
 
 [WEP Encryption](https://doi.org/10.1007/3-540-45537-X_1)
+
+
+
+### WPA/WPA2
+
+Wifi Protected Access (WPA):
+
+TKIP-(Temprol Key Integrity Protocol)
+    
+    secure derivation method (IV->Per packet encryption)
+    Sequence Counter -> reject repeated packets
+    64-bit MIC (Message Integrity Check) to prevent packets corruption
+
+PBKDF2(Password-Based Key Derivation Function 2)
+
+HMAC-SHA1 -> genearate encryption 4096 times 
+
+SSID-> prevent rainbow attacks
+
+4096->increase computational power to prevent brute force attack
+
+WPA2:
+
+    improved WPA by introducing CCMP (Counter Mode CBC-MAC Protocol)
+
+    mode of operation for BLock ciphers
+
+    Authenticate + Encrypt mechanism
+
+Four-way handshake (Client-AP Exchange)
+
+    PMK - used for encryption and decryption key(PTK- Pairwise Transient Key)
+        Generating using:
+        PMK
+        AP nonce
+        Client nonce
+        AP MAC address
+        Client MAC address
+    PTk keys:
+        2-keys->Encryption and Confirmation EAPol Packects
+        2-keys--> sending and receiving message Integrity codes
+        temprol key->used to encrypt data
+    AP:
+        Transmit  GTK(Group Transcient Key)
+        Encyrpt multicast and broadcast traffic
+
+Non 802.1X Configurations are called either WPA2-Personal or WPA2-PSK since they use preshared key to auth clinets
+
+Wifi protected setup:
+
+    makes it wasier for clients to join a WPA2 protected network
+
+WPS:
+    helps client to join a network without entring a preshared Key
+
+    usses SSID to authenticate
+
+    supports:
+        PIN entry
+        NFC/ USB out of banned exchange
+        push-button authentication
+    PIN Modes:
+        Client generates Pin entered into AP
+        AP has a pin hard-corded into the client
+
+[Wifi Protected Set up WPS Brute Force Vulnurability Attack](https://www.kb.cert.org/vuls/id/723755)
+
+#### Wireless Hardening
+
+use WPA2 with AES/CCMP 
+
+Raise Computational bars
+
+Disable WPS and allow only clients to use it and not server/office 
+
+AP manangment console should be upto date
