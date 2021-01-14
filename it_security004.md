@@ -318,3 +318,50 @@ wireshark:
     Can unencrypt voices  VOIP traffic
 
 #### Promiscous Mode:
+
+
+[promiscuous Mode on Linux](https://it.awroblew.biz/linux-how-to-checkenable-promiscuous-mode/)
+
+[promiscuous Mode MAC OS](https://danielmiessler.com/blog/entering-promiscuous-mode-os-x/)
+
+[promiscuouos Mode Windows](http://lifeofageekadmin.com/how-to-manually-change-your-nic-to-promiscuous-mode-on-windows-72008-r2/)
+
+
+#### Intrusion Detection / Prevention systems
+
+IDS/IPs: 
+
+    Operate by monitoring network Traffic and analyzing it
+
+    IDS-> Only Detection system and throws an alert
+
+    IPS-> can adjust Firewall rules on the fly to block maliscious system intrusion
+
+can be host/network based 
+
+Network intrusion Detrction System (NIDS):
+
+    The detection is deployed somewhere on a network where it can monitor traffic for net subnet/segment
+
+Host based:
+
+    deployed on host that monitor traffic to and from that hosts only
+
+NIDS should have atleast 2 networks: (one for monitoring and another for administration)
+
+NIDS systems:
+
+    Snort
+    Suricata
+    Bro NIDS
+NIP (Network Intrusion Prevention system)-> takes action againest suspected maliscous s/w
+
+also signature based detections are used and are list of known maliscous s/w programs 
+
+#### Intrusion and Prevention Reading:
+
+[Snort](https://www.snort.org/)
+
+[Suricata](https://suricata-ids.org/)
+
+[Zeek network Monitor - formerly Bro Net Monitor](https://www.zeek.org/)
