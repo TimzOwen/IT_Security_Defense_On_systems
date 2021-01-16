@@ -116,3 +116,40 @@ use questionnaire for reports
 on premise installation, manage the installation to make sure it doesn't compromise your system
 
 [Vendor Security Assement Questionnaire](https://vsaq-demo.withgoogle.com/)
+
+
+[Vendor Security Assement Questionnaire](https://vsaq-demo.withgoogle.com/)
+
+#### Security Training
+
+Have a platform for training all employees on security
+
+have a platform for reporting security issues
+
+NEVER leave your computer unattended to on public gatherings NEVER!!!!!
+
+#### Incident Reporting and Analysis
+
+First detect the incident
+
+Second, Analyse and determine the effects of the scope and damage caused
+
+    use logs to check for the excat cause
+
+Third, Containment
+
+    prevent further damage to the systems
+
+Determine Severity
+
+    includes what, how and number of affected systems and how the breach affects business functions
+
+Consider impact of attack
+
+Data exfiltration:
+
+    The unauthorized data transfer from a computer
+
+Recoverbility:
+
+    How complicated and time-consuming the recovery effort will be
