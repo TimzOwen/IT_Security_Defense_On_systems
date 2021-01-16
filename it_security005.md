@@ -110,3 +110,46 @@ software signing certificate: -> sign binary distrubuted by private vendors
 
 [Hackers bypassing whitelisting attacks](http://www.crn.com/news/security/240148192/bit9-admits-systems-breach-stolen-code-signing-certificates.htm)
 
+
+#### Disk Encryption
+
+FDE:(Full Disk Encryption):
+    
+    converting data on hardware into a form that cannot be understood by anyone without the key to undo conversion
+
+Bootloader and Kernel: -> helps boot and FDE Disk
+
+secure boot:
+
+    uses public Key cryptography to secure booting process from attackers
+
+first-party encryption solution:
+
+    Bit Locker -microsoft
+    FileVault2 - apple
+
+third-party
+
+    dm-encrypt package (linux)
+    PGP
+    TrueCrypt
+    VeraCrypt
+
+key Escrow:
+
+    securely storing encryption keys by third party for later retreival when needed
+
+
+#### Disk Encryption reading
+
+[Bitlocker by Microsoft](https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-overview)
+
+[FileVault by Apple](https://support.apple.com/en-us/HT204837)
+
+[Linux dm-encrypt](https://wiki.archlinux.org/index.php/dm-crypt)
+
+[PGP](https://www.symantec.com/products/encryption)
+
+[TrueCrypt](http://truecrypt.sourceforge.net/)
+
+[VeraCrypt](https://www.veracrypt.fr/en/Home.html)
