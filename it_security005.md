@@ -41,3 +41,30 @@ Bastion Host/Networks:
 VPNs can also be used to protect againest remote attackers in a network
 
 AD in windows can be used to monitor and log for firewalls compromise by system admins 
+
+
+
+#### Logging and Auditing:
+
+Have logging servers on large companies and log systems fro small companies
+
+SIEM(Security Information and Event Management):
+
+    Centralized log server
+
+    has anlysis feature
+
+formalization
+
+    process of taking log data in different format and converting it to standardized formart with log structure
+
+log data to and from clients and timestamp to be sure when  the event occured
+
+pay attention to patterns and traffic moving in your systems during analysis 
+
+logging servers:
+
+    rsylog (open source)
+    Splunk Enterprise Security
+    IBM Security Qradar
+    RSA security analytics
