@@ -153,3 +153,30 @@ key Escrow:
 [TrueCrypt](http://truecrypt.sourceforge.net/)
 
 [VeraCrypt](https://www.veracrypt.fr/en/Home.html)
+
+
+
+#### Software Patch Management
+
+Softwae should always be uptodate 
+
+the sending and receiving ends must have eqaul checksum for communication
+
+Open SSL was compromised in 2014 with different heartbeats memory
+
+have a system to check vulnarabilities on a system before installing software
+
+used managment tools to verify:
+
+    Microsoft SCCM
+    Puppet Labs
+
+#### Application policies
+
+have policy on s/w to be used and secure the system by educating the team
+
+have the latest software working only
+
+makes sure we have the latest security features in place
+
+Extension on web must be well monitored as it could send user inputs to a remote server for credentials
