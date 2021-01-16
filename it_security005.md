@@ -22,3 +22,22 @@ disable unscessary components to resduce attack surfaces.
 Reduce software deployments (have a unified solutions)
 
 Deploy many security walls
+
+
+#### Host-based firewalls
+
+Protect individual hosts from being compromised when they're used in untrusted ,  potentially malicious environments
+
+also protect inside trusted network compromise
+
+only allows traffic to specific roles and tasks
+
+Bastion Host/Networks:
+
+    Deployed on the internet to reduce system compromise
+
+    have limted network connectivity
+
+VPNs can also be used to protect againest remote attackers in a network
+
+AD in windows can be used to monitor and log for firewalls compromise by system admins 
