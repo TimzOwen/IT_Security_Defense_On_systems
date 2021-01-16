@@ -77,3 +77,28 @@ penetration testing:
 [understanding OpenVas](http://www.openvas.org/)
 
 [Get a deeper look at Qualys](https://www.qualys.com/forms/freescan/)
+
+
+#### Privacy policy:
+
+Protect data againest misuse by employees or company or intruders into the system
+
+privacy policy:
+
+    oversee the access and use of sensitive data
+
+Audit data access -> ensure sensitive data is accessed by authorized people only\
+
+#### User Habits
+
+have policies for all the users to follow to protect systems 
+
+make sure employees have right tools to avoid their security being compromised
+
+make sure employees have their passwords right and not written down
+
+No password reuse and have regular password change 
+
+OTP authentication and mail phishing should stop
+
+[Reading on user habits](https://support.google.com/a/answer/6197508?hl=en)
