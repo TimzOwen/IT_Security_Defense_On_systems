@@ -79,3 +79,34 @@ logging servers:
 [IBM Security Qradar](https://www.ibm.com/security/security-intelligence/qradar)
 
 [RSA Security analytics](https://community.rsa.com/docs/DOC-41639)
+
+
+
+#### Antimalware protection
+
+Antivirus to protect on systems
+
+    operates on known signatures for new files or downloads and blocks the malware from harming the system
+
+Not trustable because its vendor invent and sign which could be too late for attacks
+
+binary white listing software
+
+    only permits s/w in the list to run alone
+
+    for only executable binary files
+
+uses crytographic hash binaries -> identify unique binary
+
+software signing certificate: -> sign binary distrubuted by private vendors
+
+#### Antimalware protection reading
+
+[compromising unprotected systems](https://isc.sans.edu/survivaltime.html)
+
+[Antivirus in question by securty engineers](http://robert.ocallahan.org/2017/01/disable-your-antivirus-software-except.html)
+
+[Sophos Antivirus system attack](http://lock.cmpxchg8b.com/Sophail.pdf)
+
+[Hackers bypassing whitelisting attacks](http://www.crn.com/news/security/240148192/bit9-admits-systems-breach-stolen-code-signing-certificates.htm)
+
