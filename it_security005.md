@@ -68,3 +68,14 @@ logging servers:
     Splunk Enterprise Security
     IBM Security Qradar
     RSA security analytics
+
+
+#### loging and auditing suplimentary reading
+
+[rsylog open sourced](https://github.com/rsyslog/rsyslog)
+
+[Splunk Enterprise Security](https://www.splunk.com/)
+
+[IBM Security Qradar](https://www.ibm.com/security/security-intelligence/qradar)
+
+[RSA Security analytics](https://community.rsa.com/docs/DOC-41639)
