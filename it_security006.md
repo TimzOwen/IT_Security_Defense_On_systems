@@ -168,3 +168,28 @@ use the vulnarability to avoid future attacks
 use postmoterms and document it for future reference 
 
 Test the systems to check services running well
+
+
+#### Mobile Security
+
+use screeen lock or biometric to prevent againest data loss
+
+use storage encryption to avoid stolen phones from being accessed
+
+defense in depth 
+
+make sure apps have the right access and permission to access data or location or GPS
+
+#### suplimetary reading on Mobile Security
+
+[Screen Lock on Android](https://support.google.com/android/answer/9079129)
+
+[Change access to items Iphone](https://support.apple.com/guide/iphone/change-access-to-items-when-iphone-is-locked-iph9a2a69136/ios)
+
+[usinf passcode in iphone, ipad](https://support.apple.com/HT204060)
+
+[Control your app permission on Android 6.0 ](https://support.google.com/googleplay/answer/6270602)
+
+[Change app access to private data](https://support.apple.com/guide/iphone/change-app-access-to-private-data-iph251e92810/ios)
+
+
