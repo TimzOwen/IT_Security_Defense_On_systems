@@ -102,3 +102,17 @@ No password reuse and have regular password change
 OTP authentication and mail phishing should stop
 
 [Reading on user habits](https://support.google.com/a/answer/6197508?hl=en)
+
+
+
+#### Third-Party security 
+
+Manage security assesments for security policy 
+
+test hardware systems for vulnarabilities
+
+use questionnaire for reports 
+
+on premise installation, manage the installation to make sure it doesn't compromise your system
+
+[Vendor Security Assement Questionnaire](https://vsaq-demo.withgoogle.com/)
