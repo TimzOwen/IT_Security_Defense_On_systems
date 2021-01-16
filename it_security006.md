@@ -153,3 +153,18 @@ Data exfiltration:
 Recoverbility:
 
     How complicated and time-consuming the recovery effort will be
+
+
+#### Incident Response and Recovery
+
+Stop the affected system or quarintine them as you work to bring back the services
+
+Forensic analysis should be done to check and seal system
+
+evidence gathering should be one more safe step to check to avoid messing with evidence
+
+use the vulnarability to avoid future attacks
+
+use postmoterms and document it for future reference 
+
+Test the systems to check services running well
